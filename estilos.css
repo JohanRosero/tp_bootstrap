@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 100vh;
+}
+
+.miBorder {
+    border: 2px solid white;
+}
+
+.art {
+    border: 2px solid white;
+    background-color: blueviolet;
+    color: #e0c2ff;
+}
+
+.miFooter {
+    border: 2px solid white;
+    background-color: rgb(130, 246, 219);
+
+}
+
+.artista {
+    height: 45vh;
+}
+
+.principal {
+    background: -webkit-linear-gradient(90deg, #e0c2ff, #a3fff9, #d8ff85);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #e0c2ff, #a3fff9, #d8ff85);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 3vh 2vh 3vh 2vh;
+}
+
+.grilla {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: -webkit-linear-gradient(90deg, #9432f5, #24e0d3, #adfc03);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #9432f5, #24e0d3, #adfc03);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #abaaac;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.2);
+}
+
+.tituloTabla {
+    background-color: #9432f5;
+    color: white;
+    text-align: center;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.bandera {
+    width: 3rem;
+}
+
+.formDivisas {
+    padding: 3vh;
+    border: 2px solid #9432f5;
+    border-radius: 2%;
+    box-shadow: 0 0 5px rgb(46, 46, 46, 0.7);
+    margin-top: 3vh;
+
+}
+.border2 {
+    padding: 2vh;
+    box-shadow: 0 0 10px rgb(3, 3, 3);
+}
+
+.card:hover{
+    transform: scale(1.025);
+}
+
+.piePagina {
+    padding-top: 2vh;
+    color: white;
+    background: -webkit-linear-gradient(90deg, #5a3f76, #3a6764, #627834);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg,  #5a3f76, #3a6764, #627834);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
